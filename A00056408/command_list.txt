@@ -1,0 +1,73 @@
+    1  ssh root 192.168.104.31
+    2  ssh root@192.168.104.31
+    3  ssh root@192.168.104.40
+    4  exit
+    5  cd /tmp/
+    6  ls
+    7  rm -rf tig/
+    8  ls
+    9  git clone https://github.com/leonleo997/so-workshop2.git
+   10  ls
+   11  cd so-workshop2/|
+   12  cd so-workshop2/
+   13  tig
+   14  touch message_1.txt
+   15  LS
+   16  ls
+   17  git add message_1.txt 
+   18  git status
+   19  vi message_2.txt
+   20  ls
+   21  git -help
+   22  git help
+   23  git rm message_1.txt 
+   24  git rm -f message_1.txt 
+   25  git status
+   26  git rm -f message_2.txt 
+   27  git status
+   28  git reset
+   29  git status
+   30  git reset message_2.txt 
+   31  git status
+   32  git checkout -b
+   33  git checkout -b A00056408/workshop2
+   34  git branch
+   35  git checkout 
+   36  git branch
+   37  git checkout -
+   38  git branch -d
+   39  git branch help
+   40* 
+   41  git checkout A00056408/workshop2
+   42  git checkout -D A00056408/workshop2
+   43  git checkout -D 
+   44  git checkout -b ylopez/workshop2
+   45  git checkout -help
+   46  git branch help
+   47  git branch -help
+   48  git branch -D A00056408/workshop2
+   49  git branch --list
+   50  git branch -D help
+   51  git checkout 
+   52  git status
+   53  ls
+   54  rm message_2.txt 
+   55  touch message_1.txt
+   56  ls
+   57  git add message_1.txt 
+   58  ls
+   59  git status
+   60  git commit -m
+   61  git commit -m "Add message_1.txt"
+   62  git config global user.name "yeye"
+   63* git config global user.email[B "yesid.lopez@correo.icesi.edu.co"
+   64  tig
+   65  ls -la
+   66  vi .git/config 
+   67  cat .git/config 
+   68  git branch
+   69  git push origin ylopez/workshop
+   70  git push origin ylopez/workshop2
+   71  git branch
+   72  history 
+   73  history > command_list.txt
