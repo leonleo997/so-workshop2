@@ -2,7 +2,7 @@
 ## Taller 2
 Universidad ICESI  
 **Curso:** Sistemas Operativos  
-**Docente:** Daniel Barragán C.  
+**Estudiante:** Yesid Leonardo Lòpez.  
 **Tema:** Llamadas al sistema  
 
 ## Descripcion:  
